@@ -1,6 +1,6 @@
 lude <stdio.h>
 
-size_t my_strlen(char *s)
+int my_strlen(char *s)
 {
    char *p = s;
 
@@ -8,7 +8,6 @@ size_t my_strlen(char *s)
       ++p;
 
    return (p - s);
-   printf("Hello World\n");
 }
 
 int main(void)
